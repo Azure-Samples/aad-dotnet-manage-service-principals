@@ -11,8 +11,9 @@ author: jianghaolu
            - Create a Service Principal for the application and assign a role
            - Export the Service Principal to an authentication file
            - Use the file to list subcription virtual machines
-           - Update the application 
-           - Delete the application and Service Principal.
+           - Update the application
+           - Update the service principal to revoke the password credential and the role
+           - Delete the Service Principal.
 
 
 ## Running this Sample ##
