@@ -1,2 +1,0 @@
-C:\Sources\dotnet-samples\aad-dotnet-manage-service-principals\bin\Debug\netstandard1.6\ManageServicePrincipal.deps.json
-C:\Sources\dotnet-samples\aad-dotnet-manage-service-principals\obj\Debug\netstandard1.6\ManageServicePrincipal.csproj.CoreCompileInputs.cache
