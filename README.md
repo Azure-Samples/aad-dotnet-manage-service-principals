@@ -1,10 +1,10 @@
 ---
-services: Aad
-platforms: .Net
+services: Graph-Rbac
+platforms: dotnet
 author: jianghaolu
 ---
 
-# Getting Started with Aad - Manage Service Principal - in .Net #
+# Getting started on managing service principals using C# #
 
           Azure Service Principal sample for managing Service Principal -
            - Create an Active Directory application
@@ -20,7 +20,7 @@ author: jianghaolu
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/aad-dotnet-manage-service-principals.git
 
