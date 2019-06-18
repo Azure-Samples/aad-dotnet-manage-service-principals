@@ -25,10 +25,10 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/aad-dotnet-manage-service-principals.git
 
     cd aad-dotnet-manage-service-principals
-
-    dotnet restore
-
-    dotnet run
+  
+    dotnet build
+    
+    bin\Debug\net452\ManageServicePrincipal.exe
 
 ## More information ##
 
