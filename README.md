@@ -1,7 +1,9 @@
 ---
 page_type: sample
-languages: java
-products: azure
+languages:
+- java
+products:
+- azure
 services: Graph-Rbac
 platforms: dotnet
 author: yaohaizh
@@ -28,9 +30,9 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/aad-dotnet-manage-service-principals.git
 
     cd aad-dotnet-manage-service-principals
-  
+
     dotnet build
-    
+
     bin\Debug\net452\ManageServicePrincipal.exe
 
 ## More information ##
