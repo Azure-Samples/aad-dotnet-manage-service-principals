@@ -4,21 +4,21 @@ languages:
 - csharp
 products:
 - azure
-services: Graph-Rbac
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Graph-Rbac
+- platforms: dotnet
 ---
 
 # Getting started on managing service principals using C# #
 
-          Azure Service Principal sample for managing Service Principal -
-           - Create an Active Directory application
-           - Create a Service Principal for the application and assign a role
-           - Export the Service Principal to an authentication file
-           - Use the file to list subcription virtual machines
-           - Update the application
-           - Update the service principal to revoke the password credential and the role
-           - Delete the Service Principal.
+ Azure Service Principal sample for managing Service Principal -
+  - Create an Active Directory application
+  - Create a Service Principal for the application and assign a role
+  - Export the Service Principal to an authentication file
+  - Use the file to list subcription virtual machines
+  - Update the application
+  - Update the service principal to revoke the password credential and the role
+  - Delete the Service Principal.
 
 
 ## Running this Sample ##
